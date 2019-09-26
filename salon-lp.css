@@ -1,0 +1,78 @@
+/** global element styling **/
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body{
+  font-family: 'Merriweather', serif;
+  background-color: #f75f00;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+}
+
+#logo{
+  width: auto;
+  height: 9rem;
+}
+
+#email{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px 10px 10px 28px;
+}
+
+#h2-email{
+  text-align: center;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 1px black solid;
+  border-radius: 4px;
+  background: lightgrey;
+  cursor: pointer;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+
+@media (min-width: 576px) {
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
